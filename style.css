@@ -1,0 +1,309 @@
+/* Lexend  EXTRA BOLD
+
+.lexend-<uniquifier> {
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+Lexend  Regular
+.lexend-<uniquifier> {
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+Innter Regular
+.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+Innter Medium
+.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+Innter Black
+.inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+  }
+
+
+Gotu regular
+
+.gotu-regular {
+  font-family: "Gotu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+Merriweather Sans
+.merriweather-sans-<uniquifier> {
+  font-family: "Merriweather Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: italic;
+}
+
+*/ 
+
+* {
+    padding: 0;
+}
+
+
+body {
+    
+      background-color: #FFF3D4;
+      margin: 0;
+
+}
+
+header {
+        max-width: 1440px;
+        max-height: 94px;
+        background-color: #40213B; ;
+        color: #FFF3D4;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+}
+
+
+header nav ul{
+                margin: 0;
+                padding; 0;
+                list-style: none;
+                display: flex;
+                gap: 36px
+
+}
+
+
+header p {
+            font-family: Inter;
+            color: #FFF3D4;
+}
+
+header p, nav, footer p, nav {
+                                font-family: Inter;
+                                color: #FFF3D4;
+}
+
+
+.testata, b {
+                    font-family: Inter;
+                    color: #40213B;
+}
+
+.container {
+            position: relative;
+            width: 90%;
+            margin:0;
+}
+
+.container copertina {
+  width: 100%;
+}
+
+.testata {
+          position: absolute;
+          top: 25%;
+          width: 90%;
+          text-align: left;
+          gap: 10px;
+}
+
+.bottone-testata {
+                  align-items: left;
+                  top: 80%;
+                  bottom: 50%;
+   
+}
+
+
+img.copertina {
+                background-image: auto;
+
+
+
+}
+
+h1.titolo {
+            font-size: 90px;
+} 
+
+
+h1.titolo {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+
+h3.sottotitolo {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+.titoli, .artista {
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 65px;
+  color: #40213B;
+}
+
+.card {
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  color: #000000; 
+
+}
+
+
+.localizzazione {
+                background-color: #40213B;
+                width: 1440px ;
+                height: 600px;
+}
+
+.indicazioni {
+          font-family: Inter;
+          color: #FFF3D4;
+          
+}
+
+.indicazioni {
+              top: 50%;
+              width: 80%;              
+}
+
+section.hr {
+            position: absolute;
+}
+
+button { /* BUTTON SQUARE*/
+        background-color: #FF8449;
+        width: 180px;
+        height: 63px;
+        size: 70%;
+        
+}
+
+button { /* BUTTON FONTS*/
+        color: #40213B;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+        font-variation-settings:
+        "slnt" 0;
+}
+header a, footer a { 
+           color: #FFF3D4;
+}
+
+
+img.card {
+        max-width: 50%;
+
+
+
+}
+
+
+section.card {
+              display: grid;
+              grid-template-columns: repeat(3, 1fr);
+              max-width: 1100px;
+              margin auto;
+              gap: 85px;
+}
+
+section.card {
+       margin: 0;
+       padding: 0;
+}
+
+section.card {
+       height: 233px;
+       width: 242px;
+       object-fit: cover;
+}
+
+
+
+.grid {
+        max-width: 100%;
+
+
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap:16px;
+  max-width: 20%;
+}
+
+@media (max-width:600px) {
+  .grid {
+      grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+
+.descrizione {
+                  font-family: "Inter", sans-serif;
+                  font-optical-sizing: auto;
+                  font-weight: 500;
+                  font-style: normal;
+                  font-variation-settings:
+}
+
+footer {
+        max-width: 1440px ;
+        max-height: 94px;
+        background-color: #40213B; ;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+}
+
+
+footer nav ul{
+                margin: 0;
+                padding; 0;
+                list-style: none;
+                display: flex;
+                gap: 36px;
+}
