@@ -66,12 +66,11 @@ Merriweather Sans
 */ 
 
 * {
-    padding: 0;
+    padding: auto;
 }
 
 
 body {
-    
       background-color: #FFF3D4;
       margin: 0;
 
@@ -97,9 +96,7 @@ header nav ul{
 
 }
 
-
-header p {
-            font-family: Inter;
+header p, .logo {
             color: #FFF3D4;
 }
 
@@ -108,16 +105,20 @@ header p, nav, footer p, nav {
                                 color: #FFF3D4;
 }
 
-
 .testata, b {
-                    font-family: Inter;
-                    color: #40213B;
+               font-family: Inter;
+               color: #40213B;
 }
 
 .container {
             position: relative;
             width: 90%;
             margin:0;
+            padding: 0;
+}
+
+.titolo, .sottotitolo {
+                        line-height: 1;
 }
 
 .container copertina {
@@ -132,19 +133,8 @@ header p, nav, footer p, nav {
           gap: 10px;
 }
 
-.bottone-testata {
-                  align-items: left;
-                  top: 80%;
-                  bottom: 50%;
-   
-}
-
-
 img.copertina {
                 background-image: auto;
-
-
-
 }
 
 h1.titolo {
@@ -167,8 +157,7 @@ h3.sottotitolo {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-variation-settings:
-    "slnt" 0;
+  font-variation-settings:"slnt" 0;
 }
 
 .titoli, .artista {
@@ -182,13 +171,30 @@ h3.sottotitolo {
 
 .card {
   font-family: "Lexend", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
+  font-weight: 300px;
   font-style: normal;
   color: #000000; 
-
 }
 
+section.card {
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+  max-width: 1100px;
+  margin: auto;
+  gap: 100px;
+}
+
+section.card h4 {
+      margin:0;
+      paddong: 2px, 0;
+}
+
+section.card img {
+      height: 250px;
+      width 100%;
+      object-fit: cover;
+
+}
 
 .localizzazione {
                 background-color: #40213B;
@@ -228,6 +234,9 @@ button { /* BUTTON FONTS*/
         font-variation-settings:
         "slnt" 0;
 }
+
+
+
 header a, footer a { 
            color: #FFF3D4;
 }
@@ -236,29 +245,8 @@ header a, footer a {
 img.card {
         max-width: 50%;
 
-
-
 }
 
-
-section.card {
-              display: grid;
-              grid-template-columns: repeat(3, 1fr);
-              max-width: 1100px;
-              margin auto;
-              gap: 85px;
-}
-
-section.card {
-       margin: 0;
-       padding: 0;
-}
-
-section.card {
-       height: 233px;
-       width: 242px;
-       object-fit: cover;
-}
 
 
 
@@ -267,6 +255,15 @@ section.card {
 
 
 }
+
+
+section.card {
+              display: grid;
+              grid-template-columns: repeat(3, 1fr);
+}
+
+
+
 
 .grid {
   display: grid;
@@ -307,3 +304,7 @@ footer nav ul{
                 display: flex;
                 gap: 36px;
 }
+
+p {
+  width: 90%;
+ }
