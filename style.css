@@ -305,6 +305,7 @@ footer nav ul{
                 gap: 36px;
 }
 
-p {
+p, h1, h2, h3, h4, h5{
   width: 90%;
+  max-width: 800px;
  }
