@@ -76,6 +76,7 @@ body {
 
 }
 
+
 header {
         max-width: 1440px;
         max-height: 94px;
@@ -118,7 +119,7 @@ header p, nav, footer p, nav {
 }
 
 .titolo, .sottotitolo {
-                        line-height: 1;
+  line-height: 1;
 }
 
 .container copertina {
@@ -135,6 +136,7 @@ header p, nav, footer p, nav {
 
 img.copertina {
                 background-image: auto;
+                max-width: 1440px;
 }
 
 h1.titolo {
@@ -147,8 +149,7 @@ h1.titolo {
   font-optical-sizing: auto;
   font-weight: 900;
   font-style: normal;
-  font-variation-settings:
-    "slnt" 0;
+  font-variation-settings: "slnt" 0;
 }
 
 
@@ -189,11 +190,10 @@ section.card h4 {
       paddong: 2px, 0;
 }
 
-section.card img {
+section.card img, .grid img {
       height: 250px;
       width 100%;
       object-fit: cover;
-
 }
 
 .localizzazione {
@@ -236,7 +236,6 @@ button { /* BUTTON FONTS*/
 }
 
 
-
 header a, footer a { 
            color: #FFF3D4;
 }
@@ -246,10 +245,7 @@ img.card {
         max-width: 50%;
 
 }
-
-
-
-
+ 
 .grid {
         max-width: 100%;
 
@@ -268,7 +264,7 @@ section.card {
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap:16px;
+  gap: 25px;
   max-width: 20%;
 }
 
@@ -277,7 +273,6 @@ section.card {
       grid-template-columns: repeat(3, 1fr);
   }
 }
-
 
 .descrizione {
                   font-family: "Inter", sans-serif;
@@ -305,7 +300,7 @@ footer nav ul{
                 gap: 36px;
 }
 
-p, h1, h2, h3, h4, h5{
+p, h1, h2, h3, h4, h5 {
   width: 90%;
   max-width: 800px;
  }
